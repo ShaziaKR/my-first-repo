@@ -1,0 +1,45 @@
+.greybox{
+background-color: grey;
+width: 400px;
+height: 200px;
+position: relative;
+margin-top: 20px;
+padding: 20px;
+}
+
+.orangebox{
+background-color: orange;
+width: 100px;
+height: 100px;
+position: absolute;
+top: 60px;
+left: 70px;
+}
+
+.bluebox{
+background-color: blue;
+width: 100px;
+height: 100px;
+position: absolute;
+top: 40px;
+left: 40px;
+}
+
+.scroll-box {
+  width: 300px;
+  height: 150px;
+  overflow-y: scroll;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+
+p:hover{
+    color: red;
+    font-size: 20px;
+    }
+
+    p:active{
+        color: blue;
+        font-size: 30px;
+    }
